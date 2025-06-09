@@ -55,3 +55,10 @@ Katmanlı mimari tercih edilmiştir. 4 temel katman bulunmaktadır:
 
 Tüm bileşenleri tek komutla ayağa kaldırmak için:
 docker-compose up --build
+
+
+Servis	Adres
+API	http://localhost:7111
+React	http://localhost:5173
+RabbitMQ UI	http://localhost:15672
+MongoDB	localhost:27017 (Docker içi)
