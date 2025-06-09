@@ -1,7 +1,7 @@
 // // FeedbackForm.jsx
 import React, { useState } from "react";
-import feedbackService from "/Users/aleyna/Desktop/feedback-app-frontend/src/assets/services/feedbackService"; // doğru import
-import "C:/Users/aleyna/Desktop/feedback-app-frontend/src/form.css";
+import feedbackService from "/src/assets/services/feedbackService"; 
+import "/src/form.css";
 
 export default function FeedbackForm() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
