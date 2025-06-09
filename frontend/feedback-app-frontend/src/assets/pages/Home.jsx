@@ -1,5 +1,5 @@
 import FeedbackForm from "../components/FeedbackForm";
-import "C:/Users/aleyna/Desktop/feedback-app-frontend/src/form.css"; 
+import "/src/form.css"; 
 export default function Home() {
   return (
     <div className="home-container">
